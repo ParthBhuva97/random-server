@@ -7,7 +7,7 @@ const User = require("../models/User");
 passport.use(
   new GoogleStrategy(
     {
-      clientID: keys.google.clientID,
+      clientID: '132656659854-8qi4tdn53c07dgqdnak5a5f6783u1ond.apps.googleusercontent.com',
       clientSecret: keys.google.clientSecret,
       callbackURL: keys.google.callbackURL,
     },
