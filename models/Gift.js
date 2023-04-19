@@ -26,6 +26,6 @@ const giftSchema = new Schema({
   },
 });
 
-const Gift = mongoose.model("Gift", giftSchema);
+const gift = mongoose.model("Gift", giftSchema);
 
-module.exports = Gift;
+module.exports = gift;
