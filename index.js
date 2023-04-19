@@ -64,4 +64,4 @@ db.once("open", () => console.log("Connected to MongoDB"));
 
 // Start the server
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Server started on port ${port}`));
+app.listen(port, () => console.log(`Server on port ${port}`));
