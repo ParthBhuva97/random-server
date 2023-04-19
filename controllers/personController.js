@@ -1,4 +1,4 @@
-const Person = require('../models/person');
+const Person = require('../models/personSchema');
 const mongoose = require('mongoose');
 
 // Get all persons

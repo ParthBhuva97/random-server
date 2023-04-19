@@ -8,9 +8,9 @@ const keys = require("./config/keys");
 const session = require('express-session');
 
 require("./services/passport");
-require("./models/user");
-require("./models/person");
-require("./models/gift");
+require("./models/userSchema");
+require("./models/personSchema");
+require("./models/giftSchema");
 
 const app = express();
 // Middleware

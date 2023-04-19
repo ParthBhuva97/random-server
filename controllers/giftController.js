@@ -1,4 +1,4 @@
-const Gift = require('../models/gift');
+const Gift = require('../models/giftSchema');
 
 const createGift = async (req, res) => {
   try {
