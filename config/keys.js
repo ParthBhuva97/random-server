@@ -1,12 +1,16 @@
+const dotenv = require('dotenv');
+
+dotenv.config({path: '../config.env'})
+
 module.exports = {
     google: {
-      clientID: '132656659854-8qi4tdn53c07dgqdnak5a5f6783u1ond.apps.googleusercontent.com',
-      clientSecret: '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',
-      callbackURL: 'http://localhost:3000/auth/google/callback?redirect_url=http://127.0.0.1:5173/person',
+      clientID: process.env.CLIENT_ID,
+      clientSecret: process.env.CLIENT_SECRET,
+      callbackURL: process.env.CALLBACK_URL,
     },
     jwt: {
-      secret: 'IOPBHUVGYASDRTYGHETDGVSDFRPRTHBG',
-      expiresIn: '30d',
+      secret: process.env.JWT_SECRET,
+      expiresIn: process.env.EXPIRES_IN,
     },
   };
   
