@@ -8,7 +8,7 @@ const keys = require("./config/keys");
 const session = require('express-session');
 
 require("./services/passport");
-require("./models/user");
+require("./models/User");
 require("./models/person");
 require("./models/gift");
 
